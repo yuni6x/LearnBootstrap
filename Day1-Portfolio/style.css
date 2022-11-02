@@ -28,30 +28,16 @@ hr {
 
     /* footer */
 footer {
-    background-color: rgb(85, 85, 85);
+    background-color: rgb(128, 128, 128);
     color: white;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    padding: 10px;
+    height: 100px;
+    padding-top: 30px;
 }
-.social-icon {
-    display: flex;
-    padding-bottom: 15px;
+footer a {
+    text-decoration: none;
+    color: #000;
+    
 }
-.bg-icon {
-    width: 32px;
-    height: 32px;
-    background-color: rgba(255, 255, 255, 0.1);
-    border-radius: 50%;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    margin: 0 5px;
-}
-.bg-icon a {
-    color: rgb(0, 0, 0);
-}
-.bg-icon a:hover {
-    transform: scale(110%);
+footer a:hover{
+    color: rgb(255, 255, 255);
 }
