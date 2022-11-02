@@ -1,0 +1,57 @@
+
+.jumbotron img{
+    width: 200px;
+    border: 5px solid rgb(217, 217, 217);
+}
+section#about {
+    min-height: 600px;
+}
+section#projects {
+    min-height: 900px;
+}
+section#contact {
+    min-height: 575px;
+}
+section {
+    padding-top: 25px;
+}
+h2{
+    margin: 20px 0;
+}
+
+hr {
+    width: 25%;
+    margin-left:37.5% !important; 
+    margin-right:37.5% !important;
+    border-bottom: 3px solid rgb(128, 128, 128);
+}
+
+    /* footer */
+footer {
+    background-color: rgb(85, 85, 85);
+    color: white;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 10px;
+}
+.social-icon {
+    display: flex;
+    padding-bottom: 15px;
+}
+.bg-icon {
+    width: 32px;
+    height: 32px;
+    background-color: rgba(255, 255, 255, 0.1);
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0 5px;
+}
+.bg-icon a {
+    color: rgb(0, 0, 0);
+}
+.bg-icon a:hover {
+    transform: scale(110%);
+}
