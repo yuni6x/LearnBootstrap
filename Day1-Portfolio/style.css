@@ -5,6 +5,7 @@
 }
 section#about {
     min-height: 600px;
+    /* font-family: Verdana, Geneva, Tahoma, sans-serif; */
 }
 section#projects {
     min-height: 900px;
