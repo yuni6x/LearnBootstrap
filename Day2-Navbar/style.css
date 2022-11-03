@@ -1,7 +1,19 @@
-
+header.jumbotron {
+    background: url('img/bg.jpg') no-repeat;
+    background-position: 0 -75px;
+    background-size: cover;
+    background-attachment: fixed;
+    color: #eaeaea;
+    height: 450px;
+}
 .jumbotron img{
     width: 200px;
     border: 5px solid rgb(217, 217, 217);
+    box-shadow: 2px 2px 20px rgba(0, 0, 0, 0.5);
+}
+.jumbotron h1, 
+.jumbotron p {
+    text-shadow: 1px 1px 10px rgb(217, 215, 215);
 }
 section#about {
     min-height: 600px;
