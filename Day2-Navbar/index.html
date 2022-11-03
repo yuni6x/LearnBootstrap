@@ -1,0 +1,158 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Bootstrap demo</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-Zenh87qX5JnK2Jl0vWa8Ck2rdkQ2Bzep5IDxbcnCeuOxjzrPF/et3URy9Bv1WTRi" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css">
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <!-- navbar --> 
+    <nav class="navbar navbar-expand-lg sticky-top navbar-dark bg-dark">
+        <div class="container-fluid">
+            <a class="navbar-brand ms-5" href="#">YuuCode</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav ms-auto me-5">
+                    <li class="nav-item">
+                        <a class="nav-link active" aria-current="page" href="#">Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#about">About</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#projects">Projects</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#contact">Contact</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+    <!-- end navbar -->
+
+    <!-- header -->
+    <header class="jumbotron">
+        <div class="container-fluid text-center p-5 bg-light"> 
+            <!-- bg-light is background color & p-5 is padding -->
+            <img class="rounded-circle" src="img/img.jpg" alt="Image">
+            <h1 class="display-2">Yuni Safitri</h1>
+            <p class="lead"><strong>Student | Front End Developer</strong> </p>
+        </div>
+    </header>
+    <!-- aend header -->
+
+    <!-- about -->
+    <section id="about">
+        <div class="container-fluid">
+            <div class="row">
+                <div class="col-sm-12 text-center">
+                    <h2>About</h2>
+                    <hr>
+                </div>
+                
+            </div>
+            <div class="row text-left justify-content-center">
+                <div class="col-sm-5">
+                    <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Temporibus, fugit? Veritatis exercitationem nesciunt quis accusantium adipisci voluptates! Tenetur deleniti, nostrum necessitatibus fuga corrupti reprehenderit commodi iusto! Ex nostrum id magni delectus facere dolorem eligendi at.</p>
+                </div>
+                <div class="col-sm-5">
+                    <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Temporibus, fugit? Veritatis exercitationem nesciunt quis accusantium adipisci voluptates! Tenetur deleniti, nostrum necessitatibus fuga corrupti reprehenderit commodi iusto! Ex nostrum id magni delectus facere dolorem eligendi at.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- end about -->
+
+    <!-- projek -->
+    <section id="projects" class="bg-light">
+        <div class="container-fluid">
+            <div class="row">
+                <div class="col-sm-12 text-center">
+                    <h2>My Recent Projects</h2>
+                    <hr>
+                </div>
+            </div>
+            <div class="row justify-content-center">
+                <div class="col-sm-5 p-2">
+                    <a href=""><img class="img-thumbnail" src="img/projects-1.png" alt="projects-1"></a>
+                </div>
+                <div class="col-sm-5 p-2">
+                    <a href=""><img class="img-thumbnail" src="img/projects-2.png" alt="projects-2"></a>
+                </div>
+                <div class="col-sm-5 p-2">
+                    <a href=""><img class="img-thumbnail" src="img/projects-3.png" alt="projects-3"></a>
+                </div>
+                <div class="col-sm-5 p-2">
+                    <a href=""><img class="img-thumbnail" src="img/projects-4.png" alt="projects-4"></a>
+                </div>
+                <div class="col-sm-5 p-2">
+                    <a href=""><img class="img-thumbnail" src="img/projects-5.png" alt="projects-5"></a>
+                </div>
+                <div class="col-sm-5 p-2">
+                    <a href=""><img class="img-thumbnail" src="img/projects-6.png" alt="projects-6"></a>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- end projek -->
+
+    <!-- contact -->
+    <section id="contact">
+        <div class="container-fluid">
+            <div class="row">
+                <div class="col-sm-12 text-center">
+                    <h2>Contact Me</h2>
+                    <hr>
+                </div>
+            </div>
+            <form>
+                <div class="row justify-content-center">
+                    <div class="col-sm-7 mb-3">
+                        <label for="exampleFormControlInput1" class="form-label">Full Name</label>
+                        <input type="text" class="form-control" id="exampleFormControlInput1" placeholder="Yuuney Safitri">
+                    </div>
+                    <div class="col-sm-7 mb-3">
+                        <label for="exampleFormControlInput1" class="form-label">Email address</label>
+                        <input type="email" class="form-control" id="exampleFormControlInput1" placeholder="yunisafitrix@example.com">
+                    </div>
+                    <div class="col-sm-7 mb-3">
+                        <label for="exampleFormControlTextarea1" class="form-label">Message</label>
+                        <textarea class="form-control" id="exampleFormControlTextarea1" rows="3"></textarea>
+                    </div>
+                    <div class="col-sm-12 text-center">
+                        <button type="button" class="btn btn-light">Submit</button>
+                    </div>
+                </div>
+            </form>
+        </div>
+    </section>
+    <!-- end contact -->
+
+    <!-- footer -->
+    <footer id="footer">
+        <div class="container-fluid">
+            <div class="row">
+                <div class="col-sm-12 text-center">
+                    <p>Copyright 2020 | Bulit By <a href="https://github.com/yuni6x">Yuni Safitri</a></p>
+                </div>
+            </div>
+        </div>
+    </footer>
+    <!-- end footer -->
+
+
+
+
+
+
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-OERcA2EqjJCMA+/3y+gxIOqMEjwtxJY7qPCqsdltbNJuaOe923+mo//f6V8Qbsw3" crossorigin="anonymous"></script>
+</body>
+</html>
