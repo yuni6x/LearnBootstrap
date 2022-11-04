@@ -1,0 +1,35 @@
+
+section#about {
+    min-height: 600px;
+    /* font-family: Verdana, Geneva, Tahoma, sans-serif; */
+}
+
+section {
+    padding-top: 25px;
+}
+h2{
+    margin: 20px 0;
+}
+
+hr {
+    width: 25%;
+    margin-left:37.5% !important; 
+    margin-right:37.5% !important;
+    border-bottom: 3px solid rgb(128, 128, 128);
+}
+
+    /* footer */
+footer {
+    background-color: rgb(128, 128, 128);
+    color: white;
+    height: 100px;
+    padding-top: 30px;
+}
+footer a {
+    text-decoration: none;
+    color: #000;
+    
+}
+footer a:hover{
+    color: rgb(255, 255, 255);
+}
